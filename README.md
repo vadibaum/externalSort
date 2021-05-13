@@ -1,5 +1,15 @@
 # externalsort
 
+    main.cpp
+    
+    exsort.cpp exsort.h
+external sort functions
+
+    randomstrings.cpp randomstrings.h
+functions dedicated to a generation of random strings
+
+## ./externalSort
+
     -h --help
 Shows this.
 
