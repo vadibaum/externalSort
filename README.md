@@ -56,7 +56,7 @@ Sorts INPUT file using an external search by splitting it to chunks of the SIZE,
 
 ## utils
 
-    bitrun.sh NLENGTH BOUND
+    bitrun.sh S_LEN N_STRS
     
-Bash script that generates strings of size of NLENGTH and the total size of BOUND bytes, sorts them by the means of the program, then sorts by the means of standard sort, checks both results with wc and diff.
+Bash script that generates strings via blockgenerate, sorts them by the means of the program, then sorts by the means of standard sort, checks both results with wc and diff.
 
