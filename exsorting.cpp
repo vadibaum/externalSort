@@ -71,7 +71,7 @@ void write_chunk(std::vector<std::string> &data, unsigned int &numberChunks,
 
     for (int i = 0; i < data_size - 1; i++) {
         output << data[i];
-        output << std::endl;
+        output << "\n";
     }
 
     if (data_size > 0) {
@@ -127,7 +127,7 @@ void merge(size_t numberChunks, const std::string &stamp, const std::string &out
         std::pair<std::string, size_t> minE = minHeap.top();
         minHeap.pop();
         output_file << minE.first;
-        output_file << std::endl;
+        output_file << "\n";
 
         std::string nextValue;
         flush(output_file);
