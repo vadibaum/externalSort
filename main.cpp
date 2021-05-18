@@ -46,7 +46,7 @@ int main(int argc, const char *argv[]) {
         }
     }
 
-    if (!strcmp(argv[1], "-bg") || !strcmp(argv[1], "--blockgenerate")) {
+    else if (!strcmp(argv[1], "-bg") || !strcmp(argv[1], "--blockgenerate")) {
 
         static const size_t S_LEN = std::stoi(argv[2]);;
         static const size_t N_STRS = std::stoi(argv[3]);;
